@@ -1,0 +1,105 @@
+mcc -C -o streamingFaceRecognition -W WinMain:streamingFaceRecognition -T link:exe -d C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition\for_testing -v C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\AutoCapturedFaces -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\createMontage.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\detid.txt -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\detname.txt -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\distributeObjects.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\Face.prj -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd.prj -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\license.txt -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\linewrap.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\myPrediction.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\pathsFromImageSet.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\PreviewController.p -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\removeImageFromImageSet.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition.prj -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\StreamingFaceRecognitionReadMe.docx -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\targetFaceHistogram.pgm -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\togglefig.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\trainStackedFaceDetector.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\Utility.p -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\webcam.m -a C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\WebcamController.p -a C:\MATLAB\SupportPackages\R2015b\usbwebcams 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+[Warning: Adding path
+"C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1" to Compiler
+path instance.] 
+[] 
+Parsing file "C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 84 temporary MEX authorization files.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6055_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6017215_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602043_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6025315_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6022754_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c60133_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c605099_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c601337_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c603966_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6029715_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c608793_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c604327_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6028871_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6018300_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6010364_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6019150_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6010374_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c604294_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c609595_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6018924_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c605151_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6012645_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6016038_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c607572_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602791_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602574_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6018152_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6029274_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6022320_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602972_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6015424_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c607313_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6020757_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6028305_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6029366_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6026476_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c60267_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c607003_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6027539_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6024419_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6020665_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6026582_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6011473_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c607128_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6015882_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6019987_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6019451_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6017536_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6088_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c609804_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6021791_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6014266_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c604121_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602795_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6031390_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6028875_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6032359_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6017303_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6026764_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6025790_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c603074_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6014656_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6016085_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6016158_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6025305_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6021146_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c604099_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6030684_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c60631_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c602306_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6016561_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6018609_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c604669_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c601252_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c609019_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6017102_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c607593_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c603364_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6013714_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6030908_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c60894_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6015979_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6031512_7264.auth'.
+Removing: 'C:\Users\suhird\AppData\Local\Temp\mathworks_tmp_01c6030568_7264.auth'.
+Generating file "C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015b\toolbox\compiler\Resources\default_icon.ico to C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition\for_testing\streamingFaceRecognition.exe.
+Attempting to embed the CTF archive into the application C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition\for_testing\streamingFaceRecognition.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\streamingFaceRecognition\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 8 minutes and 48 seconds.

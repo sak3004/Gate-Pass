@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<section id="banner">
+			<div class="inner">
+				<header>
+					<h1>The  Gate  Pass  System</h1>
+				</header>
+			</div>
+			<section id="three" class="wrapper align-center">
+				<div class="inner">
+					<div class="flex flex-2">
+						<article>
+							<div class="image round">
+								<img src="pic03.jpg" alt="Pic 03" />
+							</div>
+						</article>
+						<article>
+							<div>
+								<h2><%=rollno%></h2>
+								<h2>Is this your SNU ID? ?</h2>
+								<a href="/Page2"><input value="YES" class="button special" type="submit"  onclick="myFunc()"/></a>
+								<input value="NO" onclick="myFunction()" class="button special" type="reset" /> 
+							</div>	
+						</article>
+						<article>
+							<div class="image round">
+								<img src="pic05.jpg" alt="Pic 05" />
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="copyright">
+						&copy; The Gate Pass System. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				function myFunction(){
+					var rollno;
+					var finished;
+					rollno=prompt("Please Enter you SNU ID");
+					while(rollno=='')	{
+						rollno=prompt("Please Enter your SNU ID:");
+					}
+					if(rollno!='')	{
+						window.location.href='Page2?rollno='+rollno;
+					}
+
+				}
+			</script>
+			
+	</body>
+</html>

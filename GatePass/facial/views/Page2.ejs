@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Form Listing Details
+	</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="main.css" />
+					<script>
+						function quitBox(cmd) 
+						{  
+							if (cmd=='quit')    
+							{
+								open(location, '_self').close();    
+							}     
+							return false;   
+						}
+					</script>
+</head>
+<body>
+	<div id="footer" class="inner">
+		<h3>STUDENT DETAILS</h3>
+		<form action="Page3" method="post">
+
+						<div class="field half first">
+							<label for="Studentid">Student ID</label>
+							<input name="Studentid" id="Studentid" type="text"  value="<%=details.id%>" <%=status%>>
+						</div>
+						<div class="field half">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text"   value="<%=details.name%>" <%=status%>>
+						</div>
+						<div class="field half first">
+							<label for="Branch">Branch</label>
+							<input name="Branch" id="Branch" type="text"  value="<%=details.branch%>" <%=status%>>
+						</div>
+						<div class="field half">
+							<label for="year">Year</label>
+							<input name="year" id="year" type="text" placeholder="Year" value=<%=details.year%> <%=status%>>
+						</div>
+						<div class="field half first">
+							<label for="Hrno">Hostel and Room No.</label>
+							<input name="Hrno" id="Hrno" type="text" value="<%=details.hostelroom%>" <%=status%>>
+						</div>
+						<div class="field half">
+							<label for="email">Email ID</label>
+							<input name="email" id="year" type="email" value="<%=details.email%>" <%=status%>>
+						</div>
+						<div class="field half first">
+							<label for="tel">Phone Number</label>
+							<input name="tel" id="tel" type="tel"  value="<%=details.phone%>" <%=status%>>
+						</div>
+						<div class="field half">
+							<label for="povisit">Place of Visit&#42</label>
+							<input name="povisit" id="povisit" type="text" value=<%=place%> ><%=input_place%>
+						</div> 
+						<div class="field half first">
+							<label for="ddate">Departure Date</label>
+							<input name="ddate" id="ddate" type="text" value="<%=propDate%>" <%=status%>>
+						</div>
+						<div class="field half">
+							<label for="adate">Arrival Date&#42</label>
+							<input name="adate" id="adate" type="date" value="<%=arrival%>"><%=input_adate%>
+						</div>
+						<div class="field">
+							<label for="address">Address</label>
+							<textarea name="address" id="address"  <%=status%>> <%=details.address%> </textarea>
+						</div>
+						<ul class="actions">
+							<li><a href=""><input value="GENERATE GATE PASS" class="button alt" type="submit"  ></a></li>
+							
+						</ul>
+					</form>
+	</div>
+	<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="copyright">
+						&copy; The Gate Pass System. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+				</div>
+			</footer>
+	<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>

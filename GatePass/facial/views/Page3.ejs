@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Success Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="main.css" />
+					<script>
+						function quitBox(cmd) 
+						{  
+							if (cmd=='quit')    
+							{
+								open(location, '_self').close();    
+							}     
+							return false;   
+						}
+					</script>
+	</head>
+	<body onload="myFunc()">
+		<section id="banner">
+			<div class="inner" style="padding: 15%;">
+				<header>
+					<h2 style="vertical-align: middle;">Your Gate Pass has been generated and email has been sent to your Email ID !</h2>
+
+
+				</header>
+			</div>
+		</section>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" style="padding: 0%;">
+					<div class="copyright">
+						&copy; The Gate Pass System. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+    
+    <script>
+        function myFunc()   {
+            setTimeout(closeWindow,5000);
+        }
+        
+        function closeWindow()  {
+            window.close();
+        }
+    </script>
+</html>

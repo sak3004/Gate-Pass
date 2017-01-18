@@ -1,0 +1,152 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2211358761" file="C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd.prj" location="C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1" name="fd" preferred-package-location="C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>fd</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\fd\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\fd\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\fd\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\fd\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="USB Webcams" enabled="true" name="USB Webcams" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\streamingFaceRecognition.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AutoCapturedFaces</file>
+      <file>${PROJECT_ROOT}\createMontage.m</file>
+      <file>${PROJECT_ROOT}\distributeObjects.m</file>
+      <file>${PROJECT_ROOT}\linewrap.m</file>
+      <file>${PROJECT_ROOT}\myPrediction.m</file>
+      <file>${PROJECT_ROOT}\pathsFromImageSet.m</file>
+      <file>${PROJECT_ROOT}\PreviewController.p</file>
+      <file>${PROJECT_ROOT}\removeImageFromImageSet.m</file>
+      <file>${PROJECT_ROOT}\streamingFaceRecognition.m</file>
+      <file>${PROJECT_ROOT}\targetFaceHistogram.pgm</file>
+      <file>${PROJECT_ROOT}\togglefig.m</file>
+      <file>${PROJECT_ROOT}\trainStackedFaceDetector.m</file>
+      <file>${PROJECT_ROOT}\Utility.p</file>
+      <file>${PROJECT_ROOT}\webcam.m</file>
+      <file>${PROJECT_ROOT}\WebcamController.p</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\MATLAB\SupportPackages\R2015b\usbwebcams\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\PreviewController.p</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\usbwebcams\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\MATLAB\SupportPackages\R2015b\usbwebcams\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamController.p</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\fd\for_testing" name="readme.txt" optional="true">C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\fd\for_testing" name="fd.exe" optional="false">C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd\for_testing\fd.exe</file>
+      <file location="${PROJECT_ROOT}\fd\for_testing" name="splash.png" optional="false">C:\Users\suhird\Documents\MATLAB\streamingFaceRecognitionV2.1\fd\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015b</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
